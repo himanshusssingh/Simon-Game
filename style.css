@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(37, 36, 36);
+}
+
+body{
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px wheat;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 2rem 1rem;
+}
+
+#red{
+    background-color: rgb(168, 68, 68);
+}
+
+#yellow{
+    background-color: rgb(195, 195, 76);
+}
+
+#purple{
+    background-color: rgb(165, 65, 165);
+}
+
+#green{
+    background-color: rgb(67, 144, 67);
+}
+
+.white{
+    background-color: white !important;
+}
+
+.black{
+    background-color: black !important;
+}
